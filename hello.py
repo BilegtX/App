@@ -114,3 +114,8 @@ def bye():
 @app.route('/snake')
 def snake():
     return snake_html
+
+
+@app.route('/heeloo')
+def hello_world1():
+    return 'Hello, World!'
